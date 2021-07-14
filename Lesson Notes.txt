@@ -1,0 +1,36 @@
+// check if git is installed
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git
+
+// what is the status of repository i`m in now
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git status
+
+// initialize git repository = create it locally
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git init
+
+// get all the files
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git add *
+
+//check
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git status
+//it should show new file 
+
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git commit -m "initial commit"
+
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git branch -M main
+// in left corner it should be written "main"
+
+// link local to public
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git remote add origin https://github.com/DignaK/sap-js-2.git
+// it might be necessary to authorise to github at this point via browser
+
+PS C:\Users\digna\Documents\She Goes Tech 2021\2021-07-14> git push -u origin main
+// it should count and write objects, and write message that remote branch is created
+
+
+... -> create new branch, named "testing"
+... -> Push (lai aizsūtītu uz online visu no datora)
+if you merge branches online, locally you have to delete it manually
+
+
+
+//// Homework: figure out how Git and Github works, what is it
